@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/todoryBackground">
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/date_text"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view Fragment"
+        android:textSize="40dp"
+        />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:background="@color/todoryBlue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/diary_content"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/diary_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/todoryBlue"
+        android:text="저장"/>
+</LinearLayout>

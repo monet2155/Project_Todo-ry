@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TodoView">
+        <attr name="CustomTodoCheckbox" format="boolean"/>
+        <attr name="CustomTodoContent" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DiaryView">
+        <attr name="CustomDiaryTitle" format="string"/>
+    </declare-styleable>
+</resources>
